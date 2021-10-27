@@ -22,9 +22,15 @@
     <p>ja me livrei da maldição.</p> 
 
     <script>
-        window.alert('Minha primeira mensagem!') 
-        window.confirm('Está gostando de JS?')
-        window.prompt ('Qual é seu nome?')
+           var n1 = Number(window.prompt ('Digite um número:')) //string
+           var n2 = Number(window.prompt ('Digite outro número:'))//string
+           //Number.parseInt(n1) ou Number.parseFloat()
+           //Number.parseInt(n2) ou Number.parseFloat()
+
+           var s = n1 + n2 // + pode servir para adição de CONCATENAÇÃO, CUIDADO
+           window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`) // template strings
+           // number + number = adição
+           //string + string = concatenação
     </script>
     
 </body>
