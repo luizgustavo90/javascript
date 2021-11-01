@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background-color: grey;
+
+}
+
+
+header{
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+
+div#msg{
+font-style: normal;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 8px;
+
+}
+
+article{
+    background-color:  white;
+    text-align:  center;
+    width: 500px;
+    border-radius: 15px;
+    margin: auto;
+
+}
+
+footer{
+    background-color: honeydew;
+    border-radius: 15px;
+    text-align: center;
+
+}

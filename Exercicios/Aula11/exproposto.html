@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voce é brasileiro?</title>
+</head>
+
+<body>
+    <h1>Checagem de pessoas brasileiras</h1>
+    <p>Digite abaixo de que país você é:</p>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Submeter" onclick="checar()">
+    <div id="res">
+
+
+
+    </div>
+
+    <script>
+       
+       function checar()
+                {
+                    var txt = window.document.querySelector('input#txtpais')
+                    var res = window.document.querySelector('div#res')
+                    var pais = Text(txt.value)
+                   
+                    
+
+                    res.innerHTML = `<p> Seu país é: ${pais}.</p>`
+                    
+                        if(pais == 'Brasil'){
+                            res.innerHTML +=`<p> Você é brasileiro! é nois!!!</p>`
+                        }
+
+                        else{
+                            res.innerHTML +=`<p> Você é estrangeiro.</p>`
+                        }
+
+                }
+    </script>
+
+    
+</body>
+
+
+</html>
